@@ -54,4 +54,4 @@ var appEl = document.querySelector('#app')
 appEl.parentNode.innerHTML += "<input size=1 id='ret' type='text' style='border: 3px black solid;" + cssPos(350, 300) + "' value='" + "" + "'/>";
 appEl = document.querySelector('#app')
 updateDom(appEl)
-window.setInterval(updateDom, 1000, appEl)
+window.setInterval(updateDom, 300, appEl)
